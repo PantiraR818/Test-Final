@@ -1,0 +1,24 @@
+#Collection = Entity
+#
+collention Customer
+{
+customer : {
+		id
+		name
+		address
+		tel
+		order
+		{
+			id
+			orderDate
+			payment
+			products
+		}
+		products
+		{
+		
+		}
+	}
+}
+====================================================
+Model==>Repo==>Service==>Controller
